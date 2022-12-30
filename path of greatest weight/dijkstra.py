@@ -1,6 +1,6 @@
 import math
 
-with open('in3.txt', 'r') as infile:
+with open('In3.txt', 'r') as infile:
     n = int(infile.readline())
 
     next_vertexes = [[]] * n  # списки смежности для каждой вершины, по индексу
